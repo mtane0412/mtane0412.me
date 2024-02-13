@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Links from '../components/Links.astro';
+import Projects from '../components/Projects.astro';
+import { Image } from 'astro:assets';
+import myImage from '../images/icon.png';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<div class="flex flex-wrap justify-center my-8">
+			<Image src={myImage} alt="profile" width={128} height={128} class="shadow rounded-full max-w-full h-auto align-middle border-none" />
+		</div>
+		<div class="flex flex-wrap justify-center my-4">
+			<h1 class="text-xl text-white">Masayuki Tanenobu</h1>
+		</div>
+		<div class="flex flex-wrap justify-center">
+			<p class="text-white">A useless member of society</p>
+		</div>
+		<Links />
+		<Projects />
+	</main>
+</Layout>
