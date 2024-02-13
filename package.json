@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.4.1",
     "@astrojs/tailwind": "^5.1.0",
+    "@iconify-json/entypo-social": "^1.1.8",
     "@iconify-json/game-icons": "^1.1.7",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/simple-icons": "^1.1.90",
