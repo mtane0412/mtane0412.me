@@ -79,7 +79,7 @@ const links = [
 <div class="flex flex-wrap justify-center items-center gap-4 my-8">
     {links.map((link) => (
         <div>
-            <a href={link.url} title={link.title}><Icon name={link.icon} width={32} height={32} /></a>
+            <a href={link.url} rel="me" title={link.title}><Icon name={link.icon} width={32} height={32} /></a>
         </div>
     ))}
 </div>
